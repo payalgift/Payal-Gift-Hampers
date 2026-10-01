@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart | Payal Gift Hamper</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Payal Gift Hamper</h2>
+
+        <a href="index.html">Continue Shopping</a>
+    </header>
+
+    <main class="cart-page">
+
+        <h1>My Shopping Cart</h1>
+        <p class="cart-subtitle">
+            Your beautiful bouquets are waiting for you!
+        </p>
+
+        <div class="cart-layout">
+
+            <!-- Cart Products -->
+            <section class="cart-products">
+
+                <div id="cart-items"></div>
+
+            </section>
+
+            <!-- Order Summary -->
+            <aside class="order-summary">
+
+                <h2>Order Summary</h2>
+
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="subtotal">₹0</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Delivery</span>
+                    <span id="delivery">₹0</span>
+                </div>
+
+                <hr>
+
+                <div class="summary-row total-row">
+                    <strong>Total</strong>
+                    <strong id="total">₹0</strong>
+                </div>
+
+                <button class="checkout-btn"
+        onclick="window.location.href='checkout.html'">
+    Proceed to Checkout
+</button>
+
+                <p class="secure-text">
+                    Your beautiful gifts, just a step away!
+                </p>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <script src="cart.js"></script>
+
+</body>
+</html>
