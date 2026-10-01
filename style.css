@@ -997,3 +997,24 @@ body {
         font-size: 27px;
     }
 }
+
+.success-header {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.success-content {
+    position: relative;
+    z-index: 2;
+}
+
+.checkout-success h1 {
+    position: relative;
+    margin-top: 20px;
+    z-index: 2;
+}
