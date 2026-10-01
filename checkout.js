@@ -204,49 +204,42 @@ Thank you! 😊`;
             document.querySelector(".checkout-page");
 
         container.innerHTML = `
-            <div class="checkout-success">
+    <div class="checkout-success">
 
-                <div class="success-header">
-                    <a href="index.html" class="brand-logo">
-                        Payal Gift Hamper
-                    </a>
-                </div>
+        <div class="success-header">
+            <a href="index.html" class="brand-logo">
+                Payal Gift Hamper
+            </a>
+        </div>
 
-                <h1>Order Placed Successfully! 🎉</h1>
+        <div class="success-content">
+            <h1>Order Placed Successfully! 🎉</h1>
 
-                <h2>Thank you, ${name}!</h2>
+            <h2>Thank you, ${name}!</h2>
 
-                <p>
-                    Your order has been placed successfully.
-                </p>
+            <p>Your order has been placed successfully.</p>
 
-                <p>
-                    <strong>Order ID:</strong>
-                    ${orderNumber}
-                </p>
+            <p><strong>Order ID:</strong> ${orderNumber}</p>
 
-                <p>
-                    <strong>Order Total:</strong>
-                    ${total}
-                </p>
+            <p><strong>Order Total:</strong> ${total}</p>
 
-                <p>
-                    <strong>Delivery Address:</strong>
-                    ${address}, ${pincode}, ${state}
-                </p>
+            <p>
+                <strong>Delivery Address:</strong>
+                ${address}, ${pincode}, ${state}
+            </p>
 
-                <p>
-                    We will contact you soon to confirm your order.
-                </p>
+            <p>We will contact you soon to confirm your order.</p>
 
-                <br>
+            <br>
 
-                <a href="index.html" class="shop-btn">
-                    Continue Shopping
-                </a>
+            <a href="index.html" class="shop-btn">
+                Continue Shopping
+            </a>
+        </div>
 
-            </div>
-        `;
+    </div>
+`;
+                
 
 
         // ==========================================
